@@ -64,6 +64,12 @@
                     <connections>
                         <outlet property="imageView" destination="xeO-2d-HMm" id="QSp-6e-zrX"/>
                         <outlet property="scrollView" destination="vdk-mH-9I9" id="dFm-4Z-rJZ"/>
+                        <outlet property="tile1View" destination="Nml-0s-83y" id="ChY-8K-HP3"/>
+                        <outlet property="tile2View" destination="On9-yO-6yJ" id="7ag-e8-R8B"/>
+                        <outlet property="tile3View" destination="ggU-aU-p3f" id="VHc-K5-acZ"/>
+                        <outlet property="tile4View" destination="waM-pf-Oa4" id="I2g-TX-Okp"/>
+                        <outlet property="tile5View" destination="vUR-nZ-KYW" id="U1o-s9-uCU"/>
+                        <outlet property="tile6View" destination="vVY-4E-zws" id="pOl-ng-AmP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
