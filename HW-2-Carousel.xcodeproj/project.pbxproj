@@ -14,6 +14,13 @@
 		85AE7FFB1DBBE48300366CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AE7FF91DBBE48300366CE8 /* LaunchScreen.storyboard */; };
 		85AE80061DBBE48300366CE8 /* HW_2_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80051DBBE48300366CE8 /* HW_2_CarouselTests.swift */; };
 		85AE80111DBBE48300366CE8 /* HW_2_CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80101DBBE48300366CE8 /* HW_2_CarouselUITests.swift */; };
+		85AE801F1DBBE56700366CE8 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE801E1DBBE56700366CE8 /* Common.swift */; };
+		85AE80211DBBE58400366CE8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80201DBBE58400366CE8 /* IntroViewController.swift */; };
+		85AE80231DBBEAC700366CE8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80221DBBEAC700366CE8 /* LoginViewController.swift */; };
+		85AE80251DBC139D00366CE8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80241DBC139D00366CE8 /* FeedViewController.swift */; };
+		85AE80271DBC145A00366CE8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80261DBC145A00366CE8 /* WelcomeViewController.swift */; };
+		85AE80291DBC165300366CE8 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE80281DBC165300366CE8 /* ConversationsViewController.swift */; };
+		85AE802D1DBC456100366CE8 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AE802C1DBC456100366CE8 /* UserSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		85AE800C1DBBE48300366CE8 /* HW-2-CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW-2-CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AE80101DBBE48300366CE8 /* HW_2_CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_2_CarouselUITests.swift; sourceTree = "<group>"; };
 		85AE80121DBBE48300366CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AE801E1DBBE56700366CE8 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		85AE80201DBBE58400366CE8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		85AE80221DBBEAC700366CE8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85AE80241DBC139D00366CE8 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = ../FeedViewController.swift; sourceTree = "<group>"; };
+		85AE80261DBC145A00366CE8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		85AE80281DBC165300366CE8 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		85AE802C1DBC456100366CE8 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		85AE7FEF1DBBE48300366CE8 /* HW-2-Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				85AE80241DBC139D00366CE8 /* FeedViewController.swift */,
 				85AE7FF01DBBE48300366CE8 /* AppDelegate.swift */,
 				85AE7FF21DBBE48300366CE8 /* ViewController.swift */,
 				85AE7FF41DBBE48300366CE8 /* Main.storyboard */,
+				85AE80221DBBEAC700366CE8 /* LoginViewController.swift */,
+				85AE80201DBBE58400366CE8 /* IntroViewController.swift */,
+				85AE801E1DBBE56700366CE8 /* Common.swift */,
 				85AE7FF71DBBE48300366CE8 /* Assets.xcassets */,
 				85AE7FF91DBBE48300366CE8 /* LaunchScreen.storyboard */,
 				85AE7FFC1DBBE48300366CE8 /* Info.plist */,
+				85AE80261DBC145A00366CE8 /* WelcomeViewController.swift */,
+				85AE80281DBC165300366CE8 /* ConversationsViewController.swift */,
+				85AE802C1DBC456100366CE8 /* UserSettingsViewController.swift */,
 			);
 			path = "HW-2-Carousel";
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85AE801F1DBBE56700366CE8 /* Common.swift in Sources */,
 				85AE7FF31DBBE48300366CE8 /* ViewController.swift in Sources */,
 				85AE7FF11DBBE48300366CE8 /* AppDelegate.swift in Sources */,
+				85AE80291DBC165300366CE8 /* ConversationsViewController.swift in Sources */,
+				85AE802D1DBC456100366CE8 /* UserSettingsViewController.swift in Sources */,
+				85AE80231DBBEAC700366CE8 /* LoginViewController.swift in Sources */,
+				85AE80251DBC139D00366CE8 /* FeedViewController.swift in Sources */,
+				85AE80211DBBE58400366CE8 /* IntroViewController.swift in Sources */,
+				85AE80271DBC145A00366CE8 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
