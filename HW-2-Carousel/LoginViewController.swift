@@ -32,7 +32,7 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = scrollView.frame.size
         
         // Set the content insets
-        scrollView.contentInset.bottom = 140
+        scrollView.contentInset.bottom = 120
         
         NotificationCenter.default.addObserver(forName: Notification.Name.UIKeyboardWillShow, object: nil, queue: OperationQueue.main) { (notification: Notification) in
             
@@ -57,15 +57,8 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
     @IBAction func didPressLogin(_ sender: AnyObject) {
         if emailField.text!.isEmpty == true || passwordField.text!.isEmpty == true {
             
-            let alertController = UIAlertController(title: "Wrong Credentials", message: "Please try again.", preferredStyle: .alert)
-            
-            // create a cancel action
-            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (action) in
-                // handle cancel response here. Doing nothing will dismiss the view.
-            }
-            
-            // add the cancel action to the alertController
-            alertController.addAction(cancelAction)
+            let alertController = UIAlertController(title: "No information entered", message: "Please enter your email and password.", preferredStyle: .alert)
+
             
             // create an OK action
             let OKAction = UIAlertAction(title: "OK", style: .default) { (action) in
