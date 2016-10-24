@@ -74,5 +74,3 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 N/A
-
-* Any libraries or borrowed content.
